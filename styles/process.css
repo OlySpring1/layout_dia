@@ -5,12 +5,18 @@
   .process__description {
     width: 362px;
     margin-right: 226px; }
+  .process__title {
+    margin-top: 16px;
+    line-height: 138%; }
+  .process__text {
+    margin-top: 24px; }
   .process__card {
-    width: 264px;
-    height: 264px;
-    background-color: #fff;
-    border-radius: 24px;
-    -webkit-box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
-            box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03); }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
 
 /*# sourceMappingURL=process.css.map */
