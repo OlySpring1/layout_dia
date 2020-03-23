@@ -508,17 +508,6 @@ button {
   .nav__toggle:checked .header__hire {
     border-bottom: 2px solid #fff; } }
 
-.section {
-  padding-top: 148px;
-  padding-bottom: 148px;
-  margin: 0 auto; }
-  @media screen and (max-width: 540px) {
-    .section {
-      padding-top: 50px;
-      padding-bottom: 50px; } }
-  .section__title {
-    text-align: center; }
-
 .title {
   font-family: "Poppins-SemiBold", sans-serif;
   font-style: normal;
@@ -528,7 +517,14 @@ button {
   color: #253757; }
 
 .ourself {
-  max-width: 754px; }
+  max-width: 754px;
+  padding-top: 148px;
+  padding-bottom: 148px;
+  margin: 0 auto; }
+  @media screen and (max-width: 540px) {
+    .ourself {
+      padding-top: 50px;
+      padding-bottom: 50px; } }
   .ourself__title {
     margin-bottom: 16px; }
   .ourself__text {
@@ -537,9 +533,16 @@ button {
     font-size: 24px;
     line-height: 150%; }
 
-.section-services {
-  background-color: #fff; }
-  .section-services__title {
+.services {
+  background-color: #fff;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  margin: 0 auto; }
+  @media screen and (max-width: 540px) {
+    .services {
+      padding-top: 50px;
+      padding-bottom: 50px; } }
+  .services__title {
     text-align: center; }
 
 .boxCards {
@@ -642,6 +645,7 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 109px 0;
   background-image: url("../images/Shapes.png");
   background-color: #fff;
   background-size: contain;
@@ -677,7 +681,10 @@ button {
 .process {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  padding-top: 148px;
+  padding-bottom: 44px;
+  margin: 0 auto; }
   @media screen and (max-width: 959px) {
     .process {
       display: -webkit-box;
@@ -690,10 +697,14 @@ button {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; } }
+  @media screen and (max-width: 540px) {
+    .process {
+      padding-top: 50px;
+      padding-bottom: 50px; } }
   .process__description {
     margin-right: 226px;
-    -webkit-transform: translateY(35%);
-            transform: translateY(35%); }
+    -webkit-transform: translateY(18%);
+            transform: translateY(18%); }
     @media screen and (min-width: 541px) and (max-width: 1220px) {
       .process__description {
         margin-right: 50px; } }
@@ -712,7 +723,6 @@ button {
     margin-top: 24px;
     line-height: 150%; }
   .process__card {
-    margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(2, 264px);
     grid-template-rows: repeat(2, 264px);
@@ -746,8 +756,8 @@ button {
   -webkit-box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
           box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03); }
   .card:nth-child(2n - 1) {
-    -webkit-transform: translateY(135px);
-            transform: translateY(135px);
+    -webkit-transform: translateY(89px);
+            transform: translateY(89px);
     position: relative;
     z-index: 3; }
     @media screen and (max-width: 959px) {
@@ -936,12 +946,19 @@ button {
 .testimonial:hover .testimonial__quote {
   opacity: 0.7; }
 
-.section-testimonials__title {
-  margin-top: 16px;
-  margin-bottom: 85px; }
+.testimonials-section {
+  padding-top: 148px;
+  padding-bottom: 168px;
+  margin: 0 auto; }
+  @media screen and (max-width: 540px) {
+    .testimonials-section {
+      padding-top: 50px;
+      padding-bottom: 50px; } }
+  .testimonials-section__title {
+    margin-top: 16px;
+    margin-bottom: 85px; }
 
 .approach {
-  margin-top: -276px;
   position: relative;
   z-index: 0;
   color: #fff; }
@@ -1045,7 +1062,7 @@ button {
   .footer__bg {
     background-color: #008aff;
     border-top-right-radius: 200px;
-    padding-top: 180px; }
+    padding-top: 131px; }
     @media screen and (max-width: 800px) {
       .footer__bg {
         padding-top: 80px; } }
@@ -1075,6 +1092,10 @@ button {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 84px; }
+    @media screen and (max-width: 959px) {
+      .footer__nav {
+        margin-top: 80px;
+        padding-bottom: 40px; } }
   @media screen and (max-width: 959px) {
     .footer__list {
       display: none; } }
